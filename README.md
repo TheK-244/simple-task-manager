@@ -85,24 +85,6 @@ All user stories are added as [GitHub Issues](https://github.com/YOUR-USERNAME/s
 
 ---
 
-## 🌐 Deployment (Optional)
-To deploy on Heroku:
-
-### 1. Replace SQLite with PostgreSQL in `Gemfile`:
-```ruby
-gem 'pg', group: :production
-```
-
-### 2. Push to Heroku
-```bash
-heroku create simple-task-manager-YOURNAME
-heroku config:set RAILS_ENV=production
-heroku run rails db:migrate
-heroku open
-```
-
----
-
 ## 📁 Folder Structure
 | Folder | Purpose |
 |--------|---------|
