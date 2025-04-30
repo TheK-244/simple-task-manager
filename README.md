@@ -92,4 +92,3 @@ All user stories are added as [GitHub Issues](https://github.com/YOUR-USERNAME/s
 | `spec/` | RSpec unit tests |
 | `features/` | Cucumber BDD tests |
 | `db/` | Migrations and schema |
-
